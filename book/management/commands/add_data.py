@@ -15,8 +15,3 @@ class Command(BaseCommand):
 
 
         df.to_sql(Book._meta.db_table, if_exists='replace', con=engine, index=True)
-
-        
-
-
-
